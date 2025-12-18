@@ -9,24 +9,60 @@
 
 ---
 
-### 💎 Project Glimpse
+<p align="center">
+  <img src="./assets/images/01.Home.png" width="900" alt="VoxSense"/>
+</p>
 
-#### User Interface
+## 🎥 Project Demo
 
-*(Replace these with your actual project screenshots)*
+> A complete walkthrough of VoxSense's features, from voice analysis to report generation.
+ 
+**▶ Click to play the demo video:**
 
-**Home Page**
-![Home Page](./assets/home_page.png)
+https://github.com/bhavyadoshi12/VoxSense_ER/raw/main/assets/video/VoxSense_ER.mp4
 
-**Results Dashboard**
-![Results Dashboard](./assets/dashboard.png)
+---
 
-#### Project Demo Video
+## 🖥️ Application UI
 
-<video src="./assets/project_demo.mp4" controls="controls" style="max-width: 730px;">
-</video>
+<details>
+<summary><b>📸 Click to view application screenshots</b></summary>
 
-*(Make sure you have `home_page.png`, `dashboard.png`, and `project_demo.mp4` inside the `assets` folder.)*
+
+### 🏠 Home Page
+![Home](assets/images/01.Home.png)  
+**Description:** The landing page of VoxSense, providing navigation options and an overview of the system.
+
+### 👤 Personal Profile
+![Personal Profile](assets/images/02.Personal_Profile.png)  
+**Description:** User profile page where personal details and preferences are displayed or updated.
+
+### 🎤 Voice Analysis
+![Voice Analysis](assets/images/03.Voice_Analysis.png)  
+**Description:** Interface for analyzing uploaded or recorded voice samples to detect emotional states.
+
+### 🔴 Live Voice Session
+![Live Voice Session](assets/images/04.Live_Voice_Session.png) 
+**Description:** Real-time voice recording and emotion detection session for live analysis.
+
+### ⬆️ Upload Session
+![Upload Session](assets/images/05.Upload_Session.png)
+**Description:** Page for uploading pre-recorded audio files for emotion recognition processing.
+
+### 📊 Dashboard 
+![Dashboard](assets/images/06.Dashboard_1.png)
+**Description:** Visual representation of emotion analysis results with charts and graphs.
+
+### 📈 Dashboard 2
+![Dashboard 2](assets/images/07.Dashboard_2.png) 
+**Description:** Additional analytics dashboard showing detailed metrics and comparisons.
+
+### 📉 Dashboard 3
+![Dashboard 3](assets/images/08.Dashboard_3.png)  
+**Description:** Summary dashboard with tabular data and performance indicators.
+
+
+</details>
 
 ---
 
@@ -70,7 +106,7 @@ Follow these steps to get the project up and running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/VoxSense_ER.git
+git clone https://github.com/bhavyadoshi12/VoxSense_ER.git
 cd VoxSense_ER
 ```
 
