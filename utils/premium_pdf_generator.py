@@ -374,7 +374,7 @@ class PremiumPDFGenerator:
         Advanced Voice Emotion Recognition Technology<br/>
         Report: {datetime.now().strftime("%Y-%m-%d %H:%M")} | ID: VS{datetime.now().strftime("%Y%m%d%H%M%S")}<br/>
         Client: {user_details.get('name', 'Valued Client')} | Confidential Report<br/>
-        © 2025 VoxSense Technologies | www.voxsense.ai
+        © 2026 VoxSense Technologies | www.voxsense.ai
         </para>
         """
         
