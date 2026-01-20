@@ -1,4 +1,4 @@
-# 🎭 VoxSense — AI-Powered Emotion Recognition from Voice
+# 🎭 VoxSense-ER — AI-Powered Emotion Recognition from Voice
 
 <p align="center">
   <img src="Banner.png" alt="VoxSense Banner" />
@@ -17,18 +17,28 @@
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **https://voxsense-er.streamlit.app/**  
+*Deployed on Streamlit Cloud*
+
+---
+
 ## 📖 Overview
 
-**VoxSense** is a sophisticated **AI-powered emotion recognition system** that analyzes vocal patterns to identify human emotional states.  
-It delivers **real-time emotional intelligence** through a premium web interface, detailed analytics dashboards, and downloadable professional reports.
+**VoxSense-ER** is an advanced **AI-powered emotion recognition system** that analyzes vocal characteristics to identify human emotional states.
 
-The platform supports **live voice recording**, **audio uploads**, and **deep learning–based inference**, making it suitable for **research, HR analytics, mental health insights, call-center intelligence, and human-computer interaction studies**.
+The platform provides **real-time emotion detection**, **interactive dashboards**, and **professional downloadable reports**, making it suitable for:
+
+- Call-center intelligence  
+- Mental health analysis  
+- HR & interview evaluation  
+- Human–Computer Interaction research  
+- Speech emotion recognition studies  
 
 ---
 
 ## 🎥 Project Demo
-
-> Complete walkthrough of VoxSense — from voice capture to emotion report generation.
 
 ▶ **Demo Video:**  
 https://github.com/bhavyadoshi12/VoxSense_ER/raw/main/assets/video/VoxSense_ER.mp4
@@ -42,39 +52,31 @@ https://github.com/bhavyadoshi12/VoxSense_ER/raw/main/assets/video/VoxSense_ER.m
 </p>
 
 <details>
-<summary><b>📸 Click to view full application UI</b></summary>
+<summary><b>📸 View Full Application UI</b></summary>
 
 ### 🏠 Home Page
-![Home](assets/images/01.Home.png)  
-*Landing page with navigation and system overview.*
+![Home](assets/images/01.Home.png)
 
 ### 👤 Personal Profile
-![Profile](assets/images/02.Personal_Profile.png)  
-*User profile management and preferences.*
+![Profile](assets/images/02.Personal_Profile.png)
 
 ### 🎤 Voice Analysis
-![Voice Analysis](assets/images/03.Voice_Analysis.png)  
-*Analyze recorded or uploaded voice samples.*
+![Voice Analysis](assets/images/03.Voice_Analysis.png)
 
 ### 🔴 Live Voice Session
-![Live Session](assets/images/04.Live_Voice_Session.png)  
-*Real-time voice recording and emotion inference.*
+![Live Session](assets/images/04.Live_Voice_Session.png)
 
 ### ⬆️ Upload Session
-![Upload](assets/images/05.Upload_Session.png)  
-*Upload pre-recorded audio for analysis.*
+![Upload](assets/images/05.Upload_Session.png)
 
 ### 📊 Dashboard
-![Dashboard](assets/images/06.Dashboard_1.png)  
-*Emotion probability charts and insights.*
+![Dashboard](assets/images/06.Dashboard_1.png)
 
 ### 📈 Advanced Analytics
-![Dashboard 2](assets/images/07.Dashboard_2.png)  
-*Comparative and deep-analysis metrics.*
+![Dashboard 2](assets/images/07.Dashboard_2.png)
 
 ### 📉 Summary View
-![Dashboard 3](assets/images/08.Dashboard_3.png)  
-*Tabular summaries and performance indicators.*
+![Dashboard 3](assets/images/08.Dashboard_3.png)
 
 </details>
 
@@ -83,41 +85,41 @@ https://github.com/bhavyadoshi12/VoxSense_ER/raw/main/assets/video/VoxSense_ER.m
 ## ✨ Key Features
 
 ### 🧠 Emotion Intelligence Engine
-- **AI-Powered Deep Learning Analysis** using PyTorch
-- **Rule-Based Emotion Detection** as a robust fallback
+- Deep learning–based emotion recognition using PyTorch
+- Rule-based fallback emotion detection
 - Multi-emotion probability prediction
 
-### 🎙️ Flexible Audio Input
-- Live voice recording via browser
-- Upload audio files: `.wav`, `.mp3`, `.m4a`, `.ogg`
+### 🎙️ Audio Input Modes
+- Live voice recording from browser
+- Audio file upload (`.wav`, `.mp3`, `.m4a`, `.ogg`)
 
-### 📊 Advanced Analytics Dashboard
-- Emotion probability visualizations (Bar, Pie, Radar)
+### 📊 Analytics & Visualization
+- Emotion probability charts (Bar, Pie, Radar)
 - Audio waveform & spectrogram analysis
-- Acoustic metrics: pitch, energy, frequency patterns
+- Pitch, energy & frequency metrics
 
-### 📄 Professional Reports
+### 📄 Reports
 - Downloadable **PDF Emotional Intelligence Reports**
-- Detailed summaries and visual insights
+- Visual and statistical summaries
 
-### 🎨 Premium UI/UX
+### 🎨 UI/UX
 - Modern Streamlit interface
-- Glassmorphism cards & gradients
-- Smooth animations & responsive design
+- Responsive design
+- Smooth animations and premium layout
 
 ---
 
 ## 🛠️ Technology Stack
 
 | Layer | Technologies |
-|-----|-------------|
+|------|-------------|
 | Backend | Python |
 | Web Framework | Streamlit |
 | AI / ML | PyTorch, Librosa, Scikit-learn |
 | Data Processing | NumPy, Pandas |
 | Visualization | Plotly, Matplotlib |
-| Audio Handling | SoundFile, PyDub |
-| Reports | ReportLab |
+| Audio Processing | SoundFile, PyDub |
+| Reporting | ReportLab |
 
 ---
 
@@ -129,15 +131,13 @@ git clone https://github.com/bhavyadoshi12/VoxSense_ER.git
 cd VoxSense_ER
 ````
 
----
-
 ### 2️⃣ Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-**Activate it:**
+**Activate**
 
 **Windows**
 
@@ -151,26 +151,22 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
----
-
 ### 3️⃣ Install Dependencies
 
 ```bash
 python install_dependencies.py
 ```
 
-> Ensures correct versions and dependency compatibility.
-
 ---
 
 ## 🧠 Pre-trained Models
 
-Located in `assets/models/`:
+Location: `assets/models/`
 
 * `best_emotion_model.pth` — Primary audio-based emotion model
-* `cnn_emotion_model.pth` — Optional image-based emotion model
+* `cnn_emotion_model.pth` — Optional CNN model
 
-📌 Custom training scripts available:
+Training scripts:
 
 * `train_emotion_model.py`
 * `train_cnn_emotion.py`
@@ -178,8 +174,6 @@ Located in `assets/models/`:
 ---
 
 ## 🚀 Run the Application
-
-Ensure the virtual environment is active.
 
 ```bash
 streamlit run main.py
@@ -191,13 +185,13 @@ The application will launch in your default browser.
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-⚠️ **Known Area for Improvement:**
-Emotion confidence may sometimes be ~30%.
-Enhancements to model accuracy are highly encouraged.
+**Known Improvement Area:**
+Emotion confidence may occasionally be low (~30%).
+Model optimization and dataset improvements are encouraged.
 
-### Contribution Steps
+Steps:
 
 1. Fork the repository
 2. Create a feature branch
@@ -210,13 +204,11 @@ Enhancements to model accuracy are highly encouraged.
    ```bash
    git commit -m "Add YourFeature"
    ```
-4. Push & open a Pull Request
+4. Push and open a Pull Request
 
 ---
 
 ## ✍️ Authors
-
-Crafted with excellence by:
 
 * **Pranjal Belalekar**
 * **Bhavya Doshi**
@@ -226,11 +218,11 @@ Crafted with excellence by:
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-See the `LICENSE` file for details.
+See the `LICENSE` file for more details.
 
 ---
 
 <p align="center">
-  💎 <b>Thank you for exploring VoxSense!</b><br/>
-  Turning voices into emotional intelligence.
+  <b>Turning voices into emotional intelligence.</b>
 </p>
+
