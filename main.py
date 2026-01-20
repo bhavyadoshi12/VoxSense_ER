@@ -1345,7 +1345,7 @@ def navigation_sidebar():
         st.markdown("""
         <div style='text-align:center;color:#b0b0b0;font-size:0.85rem;padding:1.5rem;'>
             Thank you for choosing <strong style='color:#FFD700;'>VoxSense</strong> 💎<br>
-            © 2025 VoxSense Technologies<br><br>
+            © 2026 VoxSense Technologies<br><br>
             <span style='color:#d4af37;font-size:0.9rem;'>
                 By <strong>Pranjal Belalekar</strong> & <strong>Bhavya Doshi</strong>
             </span>
